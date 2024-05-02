@@ -1,10 +1,12 @@
 body > p > h3{
-    font-family: 'Segoe UI'}
-
-body{
-    background-color: rgb(90, 176, 179);
+    font-family: 'Segoe UI'
 }
 
+body{
+    background-image: url(./img/back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 .grid-layout{
     display: grid;
@@ -14,35 +16,474 @@ body{
     grid-row-gap: 0px;
     background-color: rgb(250, 247, 247);
     margin: 15px;
-    height: 1000px;
-    width: 750px;
+    height: 1050px;
+    width: 720px;
     border-radius: 20px;
     margin: auto;
     overflow: hidden;
-    box-shadow: 0px 50px 100px rgb(0, 0, 0,0.2);
+    box-shadow: 0px 0px 30px rgb(30, 30, 31);
     padding: 10px;
+    margin-top: 4%;
+}
+.caja1{
+    text-align: right;
+    width: 340px;
+    margin-top: 20px;
+    color: rgb(54, 54, 54);
+}
+
+/* {
+    line-height: 1px;
+} */
+.nombre{
+    height: 100px;
+    color: rgb(54, 54, 54);
+} 
+
+.ocupacion{
+    line-height: 20px;
 }
 
 .caja2{
     background-color: rgb(66, 66, 66);
+    height: 335px;
+    box-shadow: 0px 0px 10px rgb(30, 30, 31);
 }
 .caja3{
     background-color: rgb(153, 150, 150); 
+    height: 550px;
+    margin-right: 2%;
+    box-shadow: 0px 0px 10px rgb(30, 30, 31);
+    line-height: 15px;
+    color: rgb(54, 54, 54);
+}
+.caja4{
+    color: rgb(54, 54, 54);
+}
+.caja5{
+    color: rgb(54, 54, 54);
 }
 .caja6{
     background-color: rgb(153, 150, 150);
+    margin-left: 2px;
+    box-shadow: 0px 0px 10px rgb(30, 30, 31);
+    height: 130px;
+    color: rgb(54, 54, 54);
+}
+
+.laboral{
+    margin-left: 10%;
+}
+.Educacion{
+    margin-left: 12%;
+    /* line-height: ; */
+}
+.capacidades{
+     line-height: 6px;  
+     margin-left: 5%;
+     margin-top: 29px;
+     color: rgb(54, 54, 54);
+}
+.parrafo{
+    margin-left: 12%;
+    line-height: 40px;
+    color: rgb(54, 54, 54);
+}  
+.p1{
+    margin-left: 55%;
+    margin-top: -110px;
+    line-height: 40px;
+    color: rgb(54, 54, 54);
+}
+.p2{
+    margin-left: 55%;
+    margin-top: 17px;
+    color: rgb(54, 54, 54);
 }
 
 #foto{
-   width: 70%;
+   width: 68%;
    margin-left: 15%;
    margin-bottom: -75%;
+   animation: animate 10s infinite;
+   translate: (-50px, -50px);
 }
 
 .bordeGris{
     position: absolute;
     border: solid 6px gray;
-    width: 37%;
-    height: 370px;
-    margin-left: 599px;
+    width: 680px;
+    height: 290px;
+    margin: 14px;
+    margin-top: 1%;
 }
+
+#img1{
+    width: 30px;
+    margin-bottom: -10px;
+    
+}
+
+
+#imgCir{
+    width: 20px;
+    margin-bottom: -4px;
+}
+
+hr{
+    height: 2px;
+    background-color: rgb(54, 54, 54);
+}
+
+.linea{
+    position: absolute;
+    border: solid 2px rgb(66, 66, 66);
+    height: 205px;
+    margin-left: 14px;
+    margin-top: 3.8%; 
+}
+
+.linea2{
+    position: absolute;
+    border: solid 2px rgb(66, 66, 66);
+    height: 177px;
+    margin-left: 14px;
+    margin-top: 2%; 
+}
+
+.educacion2{
+    margin-top: 40px;
+}
+
+
+
+.referencia1{
+    display: grid;
+    position: absolute;
+    width: 310px;
+    height: 150px; 
+    margin-left: 800px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 200px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgb(30, 30, 31);
+    line-height: 2px;
+    text-align: left;
+    padding: 1%;
+}
+
+
+.referencia2{
+    display: grid;
+    position: absolute;
+    width: 310px;
+    height: 150px; 
+    margin-left: 800px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgb(30, 30, 31);
+    line-height: 2px;
+    padding: 1%;
+}
+
+.referencia3{
+    display: grid;
+    position: absolute;
+    width: 310px;
+    height: 150px;
+    margin-left: -420px; 
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 400px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgb(30, 30, 31);
+    line-height: 2px;
+    padding: 1%;
+}
+
+.referencia4{
+    display: grid;
+    position: absolute;
+    width: 310px;
+    height: 150px;
+    margin-left: -420px; 
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 700px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgb(30, 30, 31);
+    line-height: 2px;
+    padding: 1%;
+}
+
+.referencia5{
+    display: grid;
+    position: absolute;
+    width: 310px;
+    height: 150px;
+    margin-left: -420px; 
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgb(30, 30, 31);
+    line-height: 2px;
+    padding: 1%;
+}
+
+.referencia1 > img{
+    width: 125px;
+    height: 125px;
+    margin-left: 160px;
+    margin-top: -120px;
+    border-radius: 50%;
+}
+.referencia2 > img {
+  width: 125px;
+  height: 125px;
+  margin-left: 160px;
+  margin-top: -120px;
+  border-radius: 50%;
+}
+.referencia3 > img{
+  width: 125px;
+  height: 125px;
+  margin-left: 160px;
+  margin-top: -120px;
+  border-radius: 50%;
+}
+.referencia4 > img{
+  width: 125px;
+  height: 125px;
+  margin-left: 160px;
+  margin-top: -120px;
+  border-radius: 50%;
+}
+.referencia5 > img{
+  width: 125px;
+  height: 125px;
+  margin-left: 160px;
+  margin-top: -120px;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+  
+ 
+.modal1 {
+    display: none; /* escondido por defecto*/
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+  
+  .modal-content1 {
+    display: grid;
+    justify-content: center;
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; 
+  }
+  
+
+  .close1 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close1:hover,
+  .close1:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+ .modal2 {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content2 {
+    display: grid;
+    justify-content: center;
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close2 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close2:hover,
+  .close2:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+  .modal3 {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+ 
+  .modal-content3 {
+    display: grid;
+    justify-content: center;
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;  
+  }
+  
+  
+  .close3 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close3:hover,
+  .close3:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  
+  .modal4 {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+
+  .modal-content4 {
+    display: grid;
+    justify-content: center;
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; 
+  }
+  
+  .close4 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close4:hover,
+  .close4:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  
+  .modal5 {
+    display: none;
+    position: fixed; /* que se quede enun solo lugar*/
+    z-index: 1; /* que se quede en el comienzo*/
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; /* permitir desplazamiento */
+    background-color: rgb(0,0,0); /*color del back*/
+    background-color: rgba(0,0,0,0.4); /*opacidad del backgroun*/
+  }
+  
+ /*caja que contiene el modal*/
+  .modal-content5 {
+    display: grid;
+    justify-content: center;
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; 
+  }
+  
+ /*boton que se llama close*/
+  .close5 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close5:hover,
+  .close5:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+button{
+  background-color: rgb(241, 148, 221);
+  border-color: rgb(241, 148, 221);
+  width: 170px;
+  height: 30px;
+  color: rgb(54, 54, 54);
+  transition: all 400ms ease;
+  transform: translate(-5);
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+}
+  
